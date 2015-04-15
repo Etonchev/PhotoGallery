@@ -1,0 +1,119 @@
+html, body, div, span, h1, h2,  p, a,  ul, li, img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent;
+}
+ul {
+  list-style: none;
+}
+:focus {
+  outline: 0;
+}
+a {
+  text-decoration: none;
+}
+
+#main {
+  width: 1166px;
+  margin: auto;
+}
+
+body {
+  background-color: #EBE8E4;
+}
+
+#main li {
+  float: left;
+  position: relative;
+  display: inline-block;
+  width: 320px;
+  height: 180px;
+  margin: 10px 20px 40px 10px;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 0 0 5px #C0C0C0;
+}
+
+#name {
+  position: absolute;
+  height: 0; 
+  width: 300px;
+  background: rgba(0,0,0,.45); 
+  overflow: hidden;
+  bottom: 10px; 
+  left: 10px;
+  padding: 0 10px;
+  line-height: 30px;
+  color: #fff;
+  transition: height 1s;
+}
+
+li:hover #name {
+  height: 30px;
+}
+
+img {
+  height: 180px;
+  width: 320px;
+}
+
+h1 {
+  font-family: serif;
+  font-size: 36px;
+  padding-left: 20px;
+
+}
+
+#remove {
+  padding-top: 10px;
+}
+#remove a:hover {
+  color: red;
+}
+#remove a {
+  color: black;
+}
+
+#nav {
+  width: 100%;
+  float: left;
+  margin: 0 0 3em 0;
+  padding: 0;
+  list-style: none;
+  background-color: gray;
+  border-bottom: 1px solid #ccc; 
+  border-top: 1px solid #ccc; 
+}
+#nav li {
+  float: left; 
+}
+#nav li a {
+  display: block;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  border-right: 1px solid #ccc; 
+}
+#nav li a:hover {
+  color: #c00;
+  background-color: #fff; 
+}
+
+#about {
+  width: 1166px;
+  margin: auto;
+  padding: 30px 100px 100px 100px;
+}
+
+#contact {
+  margin: auto;
+  padding: 30px 100px 100px 100px;
+}
+
+#up {
+  padding: 20px;
+}
